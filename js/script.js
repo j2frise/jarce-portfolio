@@ -18,6 +18,76 @@ $(document).ready(function() {
     }, 850);
     e.preventDefault();
   });
+
+
+  $(".group .btn").on("click",function(){
+
+    var nb = 0;
+    var require = $("form .require");
+    var message = $(".message");
+
+    require.each(function(){
+        if($.trim($(this).val())==""){
+            $(this).parent("div").addClass("error");
+            nb++;
+        }
+        else{
+            $(this).parent("div").removeClass("error");
+        }
+    });
+
+    if(nb==0){
+        var email = $("#con_email");
+        var content = $("#con_message");
+        var nom = $("#con_name");
+
+        var serverURI = 'https://e-cine.xyz/laviesurmars_backend/API/jarce/index.php';
+
+        const sendmail = fetch(serverURI,
+            {
+                method: 'POST',
+                body: JSON.stringify({
+                data: {"email": $.trim(email.val()), "content": $.trim(content.val()), "nom": $.trim(nom.val())}
+            })
+        })
+        .then(response => response.json())
+        .then(res => {
+            var data = res.data;
+            if(!data.error) {
+                if(data.return == "<i class='fas fa-exclamation-circle'></i> Le format de votre email est incorrect"){
+                    email.parent("div").addClass("error");
+                    message.addClass("error");
+                    message.removeClass("success");
+                }
+                else{
+                    email.parent("div").removeClass("error");
+                    message.removeClass("error");
+                    message.addClass("success");
+                    require.val("");
+                }
+                message.html(data.return);
+                
+            }
+            else{
+                message.addClass("error");
+                message.removeClass("success");
+                message.html("<i class='fas fa-exclamation-circle'></i> Une erreur est survenue, veuillez réessayer plus tard");
+            }
+        })
+        .catch(error => {
+            console.log(error)
+        })
+    }
+    else{
+        message.addClass("error");
+        message.removeClass("success");
+        message.html("<i class='fas fa-exclamation-circle'></i> Veuillez remplir tous les champs");
+    }
+    
+});
+
+
+
     
     $(window).scroll(function() {
       if ($(this).scrollTop() > 100) {
@@ -99,3 +169,5 @@ $(".hover").mouseleave(
     $(this).removeClass("hover");
   }
 );
+
+
