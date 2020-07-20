@@ -256,7 +256,7 @@ var list = [
     },
     {
         "img": "jact.png",
-        "title": "j'act pour Teame78",
+        "title": "J'act pour Teame78",
         "year": 2019,
         "desc": "Site pour le compte de l'association Teame 78 avec le projet JACT",
         "link": "https://jact.netlify.app",
