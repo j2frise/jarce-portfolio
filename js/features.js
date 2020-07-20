@@ -485,6 +485,7 @@ function display(){
     console.log(myList);*/
     var path = window.location.pathname;
     var tabPath = path.split("/");
+    console.log(tabPath[tabPath.length - 1]);
     
     if (tabPath[tabPath.length - 1] === 'index.html') {
         var limit =  9;
