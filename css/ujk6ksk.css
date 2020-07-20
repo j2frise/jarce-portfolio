@@ -1,0 +1,54 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ff-basic-gothic-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9b04d5
+ *   - http://typekit.com/eulas/00000000000000003b9b04de
+ * ivymode:
+ *   - http://typekit.com/eulas/00000000000000003b9b33c9
+ * jaf-bernina-sans:
+ *   - http://typekit.com/eulas/00000000000000003b9adeeb
+ *   - http://typekit.com/eulas/00000000000000003b9aded3
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-04-20 15:30:24 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=ujk6ksk&ht=tk&f=17348.17350.8823.8832.42534&a=1494256&app=typekit&e=css");
+
+@font-face {
+font-family:"jaf-bernina-sans";
+src:url("https://use.typekit.net/af/7b0f23/00000000000000003b9adeeb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/7b0f23/00000000000000003b9adeeb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/7b0f23/00000000000000003b9adeeb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"jaf-bernina-sans";
+src:url("https://use.typekit.net/af/683819/00000000000000003b9aded3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/683819/00000000000000003b9aded3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/683819/00000000000000003b9aded3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"ff-basic-gothic-pro";
+src:url("https://use.typekit.net/af/578d2a/00000000000000003b9b04d5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/578d2a/00000000000000003b9b04d5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/578d2a/00000000000000003b9b04d5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"ff-basic-gothic-pro";
+src:url("https://use.typekit.net/af/362d7a/00000000000000003b9b04de/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/362d7a/00000000000000003b9b04de/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/362d7a/00000000000000003b9b04de/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"ivymode";
+src:url("https://use.typekit.net/af/4aaea0/00000000000000003b9b33c9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/4aaea0/00000000000000003b9b33c9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/4aaea0/00000000000000003b9b33c9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-jaf-bernina-sans { font-family: "jaf-bernina-sans",sans-serif; }
+.tk-ff-basic-gothic-pro { font-family: "ff-basic-gothic-pro",sans-serif; }
+.tk-ivymode { font-family: "ivymode",sans-serif; }
