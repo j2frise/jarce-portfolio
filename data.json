@@ -1,6 +1,4 @@
-const $container = document.querySelector(".content");
-const $grid = document.querySelector(".grid");
-var list =  [
+[
     {
         "img": "pierre.png",
         "title": "Portfolio Pierre Koumba",
@@ -183,7 +181,7 @@ var list =  [
             },
             {
                 "name": "Nastia Ratsimisetra",
-                "img": "nastia.jpg",
+                "img": "nastien.jpg",
                 "link": [
                     {
                         "name":"linkedin-in",
@@ -413,25 +411,6 @@ var list =  [
                 "poste": "Développeur Fullstack"
             },
             {
-                "name": "Romain Feregotto",
-                "img": "romain.jpg",
-                "link": [
-                    {
-                        "name":"globe",
-                        "link": "https://romain-feregotto.fr/"
-                    },
-                    {
-                        "name":"linkedin-in",
-                        "link": "https://www.linkedin.com/in/romain-feregotto/"
-                    },
-                    {
-                        "name":"github",
-                        "link": "https://github.com/gravity-zero/"
-                    }
-                ],
-                "poste": "développeur Front-End & Back-End"
-            },
-            {
                 "name": "Quentin Huber",
                 "img": "quentin.jpg",
                 "link": [
@@ -475,6 +454,25 @@ var list =  [
                     }
                 ],
                 "poste": "Développeur Front-End, Design graphique"
+            },
+            {
+                "name": "Romain Feregotto",
+                "img": "romain.jpg",
+                "link": [
+                    {
+                        "name":"globe",
+                        "link": "https://romain-feregotto.fr/"
+                    },
+                    {
+                        "name":"linkedin-in",
+                        "link": "https://www.linkedin.com/in/romain-feregotto/"
+                    },
+                    {
+                        "name":"github",
+                        "link": "https://github.com/gravity-zero/"
+                    }
+                ],
+                "poste": "développeur Front-End & Back-End"
             }
         ],
         "screen":[]
@@ -503,21 +501,6 @@ var list =  [
                 "poste": "Développeur Fullstack"
             },
             {
-                "name": "Constance Pétillot",
-                "img": "constance.jpg",
-                "link": [
-                    {
-                        "name":"linkedin-in",
-                        "link": "https://www.linkedin.com/in/constance-p%C3%A9tillot/"
-                    },
-                    {
-                        "name":"github",
-                        "link": "https://github.com/cpetillot/"
-                    }
-                ],
-                "poste": "developpeuse Front-End"
-            },
-            {
                 "name": "Melvyn Dadure",
                 "img": "melvyn.jpg",
                 "link": [
@@ -531,6 +514,21 @@ var list =  [
                     }
                 ],
                 "poste": "UX/UI Designer"
+            },
+            {
+                "name": "Constance Pétillot",
+                "img": "constance.jpg",
+                "link": [
+                    {
+                        "name":"linkedin-in",
+                        "link": "https://www.linkedin.com/in/constance-p%C3%A9tillot/"
+                    },
+                    {
+                        "name":"github",
+                        "link": "https://github.com/cpetillot/"
+                    }
+                ],
+                "poste": "developpeuse Front-End"
             },
             {
                 "name": "Anthony Roux",
@@ -580,40 +578,6 @@ var list =  [
                     }
                 ],
                 "poste": "Développeur Fullstack"
-            },
-            {
-                "name": "Nawel Berrichi",
-                "img": "nawel.jpg",
-                "link": [
-                    {
-                        "name":"linkedin-in",
-                        "link": "https://www.linkedin.com/in/nawelberrichi/"
-                    },
-                    {
-                        "name":"github",
-                        "link": "https://github.com/berrichinawel/"
-                    }
-                ],
-                "poste": "Développeuse Front-End & Back-End"
-            },
-            {
-                "name": "Alexanne Brunold",
-                "img": "alexanne.jpg",
-                "link": [
-                    {
-                        "name":"globe",
-                        "link": "https://alexannebrd.netlify.app/"
-                    },
-                    {
-                        "name":"linkedin-in",
-                        "link": "https://www.linkedin.com/in/alexanne-brunold-7842381a4/"
-                    },
-                    {
-                        "name":"github",
-                        "link": "https://github.com/alexannebrunold"
-                    }
-                ],
-                "poste": "Développeuse Front-End"
             },
             {
                 "name": "Hakim Cheboub",
@@ -666,6 +630,40 @@ var list =  [
                     }
                 ],
                 "poste": "Développeur Front-End"
+            },
+            {
+                "name": "Nawel Berrichi",
+                "img": "nawel.jpg",
+                "link": [
+                    {
+                        "name":"linkedin-in",
+                        "link": "https://www.linkedin.com/in/nawelberrichi/"
+                    },
+                    {
+                        "name":"github",
+                        "link": "https://github.com/berrichinawel/"
+                    }
+                ],
+                "poste": "Développeuse Front-End & Back-End"
+            },
+            {
+                "name": "Alexanne Brunold",
+                "img": "alexanne.jpg",
+                "link": [
+                    {
+                        "name":"globe",
+                        "link": "https://alexannebrd.netlify.app/"
+                    },
+                    {
+                        "name":"linkedin-in",
+                        "link": "https://www.linkedin.com/in/alexanne-brunold-7842381a4/"
+                    },
+                    {
+                        "name":"github",
+                        "link": "https://github.com/alexannebrunold"
+                    }
+                ],
+                "poste": "Développeuse Front-End"
             }
         ],
         "screen":[]
@@ -744,7 +742,7 @@ var list =  [
             },
             {
                 "name": "Nastia Ratsimisetra",
-                "img": "nastia.jpg",
+                "img": "nastien.jpg",
                 "link": [
                     {
                         "name":"linkedin-in",
@@ -1050,162 +1048,4 @@ var list =  [
         ],
         "screen":[]
     }
-];
-
-list.forEach((element, i)=>{
-    $container.insertAdjacentHTML("beforeend",
-      `<div class="content-item">
-            <div class="content-item-intro">
-                <img class="content-item-img" src="img/realisations/${element.img}" alt="${element.title}" />
-                <h2 class="content-item-title"></h2>
-            </div>
-            <h3 class="content-item-subtitle"></h3>
-            <div class="content-item-text">
-                <p class="title-content">${element.title}</p>
-                <div class="content-container">
-                    <p class="title-section">Description du projet</p>
-                    <section class="grid-row">
-                        <article class="column-xs-12 column-md-4 year">${element.year}</article>
-                        <article class="column-xs-12 column-md-8" data-aos="fade-left" data-aos-duration="2000">${element.desc}</article>
-                    </section>
-                    <p class="title-section">Technologies utilisées</p>
-                    <section class="grid-row">
-                        <article class="column-xs-12 column-md-4"></article>
-                        <article class="column-xs-12 column-md-8 tech" id="tech${i}" data-aos="zoom-in-left" data-aos-duration="2000"></article>
-                    </section>
-                    <p class="title-section" id="title-section${i}"></p>
-                    <section class="grid-row" id="team${i}"></section>
-                </div>
-            </div>
-        </div><!-- /content-item -->
-        `
-    );
-
-    const $tech = document.querySelector("#tech"+i);
-    const $teamSection = document.querySelector("#title-section"+i);
-    const $team = document.querySelector("#team"+i);
-
-    element.tech.forEach((item, j)=>{
-        $tech.insertAdjacentHTML("beforeend",
-            `
-                <img src="./img/logo/${item}" alt="${item}">
-            `
-        )
-    });
-
-    if(element.team.length > 0){
-        $teamSection.innerHTML = "Equipe";
-
-        element.team.forEach((elm, k)=>{
-            var rand = Math.random().toString(36).slice(2); 
-
-            $team.insertAdjacentHTML("beforeend",
-                `
-                    <article class="column-xs-12 column-md-6">
-                        <div class="grid-row team-content">
-                            <aside class="column-md-3 team-img">
-                                <img src="./img/team/${elm.img}" alt="${elm.name}"/>
-                            </aside>
-                            <aside class="column-md-9 team-desc">
-                                <p class="team-bio">${elm.name} <span>${elm.poste}</span></p>
-                                <p class="team-link" id="link${rand}"></p>
-                            </aside>
-                        </div>
-                    </article>
-                `
-            );
-
-            const $link = document.querySelector("#link"+rand);
-            console.log(rand);
-            
-            elm.link.forEach((lnk, l)=>{
-                var fa = lnk.name=="globe"?"fa":"fab";
-                $link.insertAdjacentHTML("beforeend",
-                    `
-                        <a href="${lnk.link}" target="_blank"><i class="${fa} fa-${lnk.name}"></i></a>
-                    `
-                )
-            });
-        });
-    }
-
-});
-
-$container.insertAdjacentHTML("beforeend",
-`<button class="content-close"><i class="fa fa-times"></i></button>`
-);
-
-
-
-/** Pagination **/
-// basic paging logic to demo the buttons
-
-/*
-var nbItem = list.length;
-var nbItemPage = 6;
-var nbPage = Math.ceil(nbItem / nbItemPage);
-var currentPage = 1;
-var end = 0;
-
-var pr = document.querySelector( '.paginate.left' );
-var pl = document.querySelector( '.paginate.right' );
-
-pr.onclick = slide.bind( this, -1 );
-pl.onclick = slide.bind( this, 1 );
-
-var index = 0, total = nbPage;
-
-function slide(offset) {
-  index = Math.min( Math.max( index + offset, 0 ), total - 1 );
-
-  document.querySelector( '.counter' ).innerHTML = ( index + 1 ) + ' / ' + total;
-  currentPage = index + 1;
-
-  pr.setAttribute( 'data-state', index === 0 ? 'disabled' : '' );
-  pl.setAttribute( 'data-state', index === total - 1 ? 'disabled' : '' );
-  //location.href = "#works";
-
-  display();
- 
-}
-
-slide(0);
-*/
-function display(){
-    /*var begin = (currentPage * nbItemPage) - nbItemPage;
-    end += nbItemPage;
-    console.log("debut : "+ begin, "Fin : "+end);
-
-
-    if(begin === end){
-        var myList = list.splice(begin);
-    }else {
-        var myList = list.splice(begin, end);
-    }
-    $grid.innerHTML = "";
-    console.log(myList);*/
-    var path = window.location.pathname;
-    var tabPath = path.split("/");
-    
-    if (tabPath[tabPath.length - 1] === 'index.html' || tabPath[tabPath.length - 1] === '') {
-        var limit =  9;
-     } else {
-        var limit =  list.length;
-     }
-    
-    for(var i = 0; i < limit; i++){
-        $grid.insertAdjacentHTML("beforeend",
-        `
-            <a href="#" class="grid-item">
-                <div class="grid-item-bg"></div>
-                <div class="grid-item-wrap">
-                    <img class="grid-item-img" src="img/realisations/${list[i].img}" alt="${list[i].title}" />
-                </div>
-                <!--<h3 class="grid-item-title">${list[i].title}</h3>-->
-                <h4 class="grid-item-number">${list[i].year}</h4>
-            </a>
-            `
-        );
-    }
-}
-display()
+]

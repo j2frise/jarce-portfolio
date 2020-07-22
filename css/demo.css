@@ -49,7 +49,6 @@
 }
 
 body {
-	color:  #000000;
 	/*font-family: 'Roboto Slab', serif;*/
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
@@ -370,8 +369,8 @@ header .container {
 	-moz-animation:inputHighlighter 0.3s ease;
 	animation:inputHighlighter 0.3s ease;
   }
-  
 
+  
   /* screen tablet */
 @media (min-width:768px){
 	body {

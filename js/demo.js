@@ -343,6 +343,7 @@
 			item.DOM.bg.style.top = `${itemDim.top}px`;
 			// Set it to position fixed.
 			item.DOM.bg.style.position = 'fixed';
+			item.DOM.bg.style.background = '#151313';
 			// Calculate the viewport diagonal. We will need to take this in consideration when scaling up the item´s bg element.
 			const d = Math.hypot(winsize.width, winsize.height);
 			// Scale up the item´s bg element.
@@ -432,6 +433,7 @@
 					item.DOM.bg.style.position = 'absolute';
 					item.DOM.bg.style.left = '0px';
 					item.DOM.bg.style.top = '0px';
+					item.DOM.bg.style.background = '#f1f1f1';
 					this.current = -1;
 					allowTilt = true;
 					item.DOM.el.style.zIndex = 0;
