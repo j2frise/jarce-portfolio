@@ -1116,7 +1116,6 @@ list.forEach((element, i)=>{
             );
 
             const $link = document.querySelector("#link"+rand);
-            console.log(rand);
             
             elm.link.forEach((lnk, l)=>{
                 var fa = lnk.name=="globe"?"fa":"fab";
