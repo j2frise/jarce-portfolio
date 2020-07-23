@@ -59,11 +59,31 @@ img {
 	 align-items: center;
  } 
 
+.link-header a {
+	font-size: 1.4em;
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+	top: -5px;
+	color: #4A89E9;
+	transition: transform 0.6s, color 0.6s;
+}
+
+.article-desc {
+	padding-top: 20px;
+}
+
 .menu a {
 	display: inline-block;
 	color: #4A89E9;
 	text-decoration: none;
 	padding: 0 1em 0 1em;
+	transition: transform 0.6s, color 0.6s;
+}
+
+.link-header a:hover, .menu a:hover {
+	color: #FA7564;
+	transform: scale(1.2);
 }
 
 .bt-menu {
@@ -360,6 +380,10 @@ h3.mobile {
 
 #about h1 div li.hetic {
 	color: #26E8A0 ;
+}
+
+#about h1 div li.second {
+	color: #FA7564 ;
 }
 
 .flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
@@ -918,11 +942,20 @@ button {
 	  position: relative;
 	  text-align: center;
 	  text-transform: uppercase;
+	  transition: transform 0.6s;
   }
   .grid-wrap article a{
 	text-decoration: underline;
 	font-weight: bold;
 	color: #4A89E9;
+	transition: color 0.6s;
+}
+
+.grid-wrap article a:hover{
+	color: #FA7564;
+}
+.grid-wrap article:hover {
+	transform: scale(1.1);
 }
   
   .counter {
@@ -940,12 +973,30 @@ button {
 
 .title-content {
 	text-align: center;
-	color: #4A89E9;
 	line-height: 74px;
 	letter-spacing: 1.52px;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 2.7em;
+	transition: transform 0.6s;
+}
+
+.title-content:hover {
+	transform: scale(1.1);
+}
+
+.title-content a {
+	color: #4A89E9;
+	transition: color 0.6s;
+}
+
+.title-content a:hover {
+	color: #FA7564;
+}
+
+.title-content a i {
+	font-size: 0.7em;
+	color: #26E8A0;
 }
 
 .content-container {

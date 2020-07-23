@@ -89,6 +89,10 @@ var list =  [
                         "link": "https://oliwiachene.netlify.app"
                     },
                     {
+                        "name":"dribbble",
+                        "link": "https://dribbble.com/oliwka_pl"
+                    },
+                    {
                         "name":"linkedin-in",
                         "link": "https://www.linkedin.com/in/oliwia-ch%C3%AAne/"
                     },
@@ -1061,12 +1065,12 @@ list.forEach((element, i)=>{
             </div>
             <h3 class="content-item-subtitle"></h3>
             <div class="content-item-text">
-                <p class="title-content">${element.title}</p>
+                <p class="title-content"><a href="${element.link}" target="_blank">${element.title} <i class="fa fa-link" aria-hidden="true"></i></a></p>
                 <div class="content-container">
                     <p class="title-section">Description du projet</p>
                     <section class="grid-row">
                         <article class="column-xs-12 column-md-4 year">${element.year}</article>
-                        <article class="column-xs-12 column-md-8" data-aos="fade-left" data-aos-duration="2000">${element.desc}</article>
+                        <article class="column-xs-12 column-md-8 article-desc" data-aos="fade-left" data-aos-duration="2000">${element.desc}</article>
                     </section>
                     <p class="title-section">Technologies utilisées</p>
                     <section class="grid-row">
