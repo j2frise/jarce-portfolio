@@ -1107,10 +1107,10 @@ list.forEach((element, i)=>{
                 `
                     <article class="column-xs-12 column-md-6">
                         <div class="grid-row team-content">
-                            <aside class="column-md-3 team-img">
+                            <aside class="column-xs-4 column-md-3 team-img">
                                 <img src="./img/team/${elm.img}" alt="${elm.name}"/>
                             </aside>
-                            <aside class="column-md-9 team-desc">
+                            <aside class="column-xs-8 column-md-9 team-desc">
                                 <p class="team-bio">${elm.name} <span>${elm.poste}</span></p>
                                 <p class="team-link" id="link${rand}"></p>
                             </aside>

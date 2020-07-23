@@ -18,7 +18,47 @@ $(document).ready(function() {
     }, 850);
     e.preventDefault();
   });
+  
+  /*
+   //SMOOTH SCROLL
+   $(document).on("scroll", onScroll);
+   $('a[href^="#"]').on('click', function (e) {
+       e.preventDefault();
+       $(document).off("scroll");
+       
+       $('a').each(function () {
+           $(this).removeClass('active');
+       });
+           
+       $(this).addClass('active');
+     
+       var target = this.hash,
+       menu = target;
+       target = $(target);
+       $('html, body').stop().animate({
+           'scrollTop': target.offset().top
+           
+       }, 500, 'swing', function () {
+           window.location.hash = target.selector;
+           $(document).on("scroll", onScroll);
+       });
+   });
 
+
+  function onScroll(event){
+    if ($('#about').length) {     
+      var scrollPos = $(document).scrollTop();
+      $('.click-menu a').each(function () {
+          var currLink = $(this);
+          var refElement = $(currLink.attr("href"));
+          if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+              $('.click-menu a').removeClass("active");
+              currLink.addClass("active");
+          }
+      });
+    }              
+  }
+  */
 
   $(".group .btn").on("click",function(){
 
